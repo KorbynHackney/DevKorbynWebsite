@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevKorbyn Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/27901c3b0e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Link to Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Link connecting to CSS styling-->
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <i class="fa-solid fa-chess-rook fa-2x" id="main-logo"></i>
+      </div>
+      <button id="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"><i class="fa-solid fa-bars fa-lg"></i></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">My Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proof">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Introduction to my website-->
+    <section class="intro" id="home">
+      <h1 class="sec-title">Hi, I am <strong>Korbyn Hackney</strong></h1>
+      <p class="sec-subtitle">Front-End Web Designer & Developer</p>
+      <img
+        src="img/aaaa.jpg"
+        alt="a profile of korbyn hackney"
+        class="intro-img"
+      />
+    </section>
+
+    <!--My services-->
+    <section class="my-services" id="services">
+      <h2 class="sec-title">What I Do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Custom Web Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet. Aut enim mollitia sed sequi labore et
+            inventore saepe. Et voluptatibus error aut eligendi atque aut earum
+            perferendis est facere quos. Sit voluptatem galisum voluptatem velit
+            qui perferendis reprehenderit. Id minus quia ut modi magnam ut
+            assumenda omnis?
+          </p>
+        </div>
+        <!--Web design service-->
+
+        <div class="service">
+          <h3>Web Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet. Aut enim mollitia sed sequi labore et
+            inventore saepe. Et voluptatibus error aut eligendi atque aut earum
+            perferendis est facere quos. Sit voluptatem galisum voluptatem velit
+            qui perferendis reprehenderit. Id minus quia ut modi magnam ut
+            assumenda omnios?
+          </p>
+        </div>
+        <!--Web development service-->
+
+        <div class="service">
+          <h3>Wordpress</h3>
+          <p>
+            Lorem ipsum dolor sit amet. Aut enim mollitia sed sequi labore et
+            inventore saepe. Et voluptatibus error aut eligendi atque aut earum
+            perferendis est facere quos. Sit voluptatem galisum voluptatem velit
+            qui perferendis reprehenderit. Id minus quia ut modi magnam ut
+            assumenda omnis?
+          </p>
+        </div>
+        <!--To be announced service-->
+      </div>
+      <!--End of services-->
+
+      <a href="#proof" class="btn">My Work</a>
+    </section>
+
+    <!--About me-->
+    <section class="about-me" id="about">
+      <div class="lang-cert">
+        <div class="about-title">
+          <h2 class="sec-title">Who I am</h2>
+          <i class="fa-solid fa-fingerprint fa-5x" id="finger"></i>
+        </div>
+        <p class="sec-subtitle">
+          Designer, Front-end Developer, and Certified Nerd Based in Asheville,
+          NC.
+        </p>
+        <p class="programs"><strong>What I use:</strong></p>
+        <ul class="icons">
+          <li class="icon-label" id="HTML">
+            HTML<i class="fa-brands fa-html5 fa-5x" id="icon" alt="html"></i>
+          </li>
+          <li class="icon-label" id="CSS">
+            CSS<i class="fa-brands fa-css3-alt fa-5x" id="icon" alt="css"></i>
+          </li>
+          <li class="icon-label" id="Wordpress">
+            Wordpress<i
+              class="fa-brands fa-wordpress fa-5x"
+              id="icon"
+              alt="wordpress"
+            ></i>
+          </li>
+        </ul>
+      </div>
+      <div class="about-container">
+        <h3>Want to start a conversation?</h3>
+        <p>
+          I am always looking for new design projects to dive head-first into.
+          Let's make a responsive and beautiful web interface you can actually
+          brag about.
+        </p>
+        <button class="btn" id="lets-go">
+          <a href="mailto:hacknekf@yahoo.com" target="_blank">Let's Go!</a>
+        </button>
+      </div>
+    </section>
+
+    <section class="my-work" id="proof">
+      <div class="center">
+        <div class="work-container">
+          <h2 class="sec-title">My Work</h2>
+          <p class="sec-subtitle">See anything you like?</p>
+          <!--Portfolio item 01 basic codePen embed feature-->
+          <div class="portfolio">
+            <div class="portfolio-item" id="one">
+              <p
+                class="codepen"
+                data-height="300"
+                data-theme-id="dark"
+                data-default-tab="html,result"
+                data-slug-hash="qBVPZzE"
+                data-preview="true"
+                data-user="Hacknekf"
+                style="
+                  height: 300px;
+                  box-sizing: border-box;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border: 2px solid;
+                  margin: 1em 0;
+                  padding: 1em;
+                "
+              >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/Hacknekf/pen/qBVPZzE">
+                    FCC Product Landing Page (fantasy ver.)</a
+                  >
+                  by Korbyn (<a href="https://codepen.io/Hacknekf">@Hacknekf</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+              <script
+                async
+                src="https://cpwebassets.codepen.io/assets/embed/ei.js"
+              ></script>
+            </div>
+            <div class="portfolio-item" id="two">
+              <p
+                class="codepen"
+                data-height="300"
+                data-theme-id="dark"
+                data-default-tab="html,result"
+                data-slug-hash="zYPPvYb"
+                data-preview="true"
+                data-user="Hacknekf"
+                style="
+                  height: 300px;
+                  box-sizing: border-box;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border: 2px solid;
+                  margin: 1em 0;
+                  padding: 1em;
+                "
+              >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/Hacknekf/pen/zYPPvYb">
+                    Untitled</a
+                  >
+                  by Korbyn (<a href="https://codepen.io/Hacknekf">@Hacknekf</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+              <script
+                async
+                src="https://cpwebassets.codepen.io/assets/embed/ei.js"
+              ></script>
+            </div>
+            <div class="portfolio-item" id="three">
+              <p
+                class="codepen"
+                data-height="300"
+                data-theme-id="dark"
+                data-default-tab="html,result"
+                data-slug-hash="eYeWQgz"
+                data-preview="true"
+                data-user="Hacknekf"
+                style="
+                  height: 300px;
+                  box-sizing: border-box;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border: 2px solid;
+                  margin: 1em 0;
+                  padding: 1em;
+                "
+              >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/Hacknekf/pen/eYeWQgz">
+                    FCC Survey Project</a
+                  >
+                  by Korbyn (<a href="https://codepen.io/Hacknekf">@Hacknekf</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+              <script
+                async
+                src="https://cpwebassets.codepen.io/assets/embed/ei.js"
+              ></script>
+            </div>
+            <div class="portfolio-item" id="four">
+              <p
+                class="codepen"
+                data-height="300"
+                data-theme-id="dark"
+                data-default-tab="html,result"
+                data-slug-hash="PoOmoeM"
+                data-preview="true"
+                data-user="Hacknekf"
+                style="
+                  height: 300px;
+                  box-sizing: border-box;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border: 2px solid;
+                  margin: 1em 0;
+                  padding: 1em;
+                "
+              >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/Hacknekf/pen/PoOmoeM">
+                    FCC Tribute Page Project</a
+                  >
+                  by Korbyn (<a href="https://codepen.io/Hacknekf">@Hacknekf</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+              <script
+                async
+                src="https://cpwebassets.codepen.io/assets/embed/ei.js"
+              ></script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <div class="social-container">
+        <ul class="social-list" id="contact">
+          <li class="social-item">
+            <a
+              class="social-link"
+              href="https://www.linkedin.com/in/korbyn-hackney-643287232/"
+              target="_blank"
+              ><i
+                class="fa-brands fa-linkedin fa-2x"
+                id="main-logo"
+                alt="linkedin"
+              ></i
+            ></a>
+          </li>
+          <li class="social-item">
+            <a
+              class="social-link"
+              href="https://github.com/KorbynHackney"
+              target="_blank"
+              ><i
+                class="fa-brands fa-github fa-2x"
+                id="main-logo"
+                alt="github"
+              ></i
+            ></a>
+          </li>
+          <li class="social-item">
+            <a
+              class="social-link"
+              href="https://twitter.com/Korb_on_the_cob"
+              target="_blank"
+              ><i
+                class="fa-brands fa-twitter fa-2x"
+                id="main-logo"
+                alt="twitter"
+              ></i
+            ></a>
+          </li>
+          <li class="social-item">
+            <a
+              href="mailto:hacknekf@gmail.com"
+              class="footer-link"
+              target="_blank"
+              ><i class="fa-solid fa-inbox fa-2x" id="main-logo" alt="email"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
