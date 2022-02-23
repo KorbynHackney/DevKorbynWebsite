@@ -1,3 +1,4 @@
+
 *,
 *::before,
 *::after {
@@ -311,7 +312,7 @@ nav {
 
 .my-services {
   color: var(--clr-white);
-  background-image: url(/PersonalWebsiteProject/PersonalWebsiteProject/img/Background.png);
+  background-image: url(/Users/Korbyn/Documents/CSS/DevKorbynWebsite/docs/img/Background.png);
   background-size: cover;
   background-color: var(--clr-light);
   background-blend-mode: multiply;
@@ -412,7 +413,7 @@ nav {
 
 /*Portfolio*/
 .my-work {
-  background-image: url(/PersonalWebsiteProject/PersonalWebsiteProject/img/CodeBack.png);
+  background-image: url(/Users/Korbyn/Documents/CSS/DevKorbynWebsite/docs/img/CodeBack.png);
   background-size: cover;
   background-color: var(--clr-light);
   background-blend-mode: multiply;
