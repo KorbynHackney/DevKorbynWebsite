@@ -312,7 +312,7 @@ nav {
 
 .my-services {
   color: var(--clr-white);
-  background-image: url(img/Background.png);
+  background-image: url(docs/CSS/Background.png);
   background-size: cover;
   background-color: var(--clr-light);
   background-blend-mode: multiply;
@@ -413,7 +413,7 @@ nav {
 
 /*Portfolio*/
 .my-work {
-  background-image: url(img/CodeBack.png);
+  background-image: url(docs/CSS/Background.png);
   background-size: cover;
   background-color: var(--clr-light);
   background-blend-mode: multiply;
