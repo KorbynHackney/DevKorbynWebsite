@@ -74,7 +74,8 @@ a {
 }
 
 ul {
-  list-style-type: none;
+  margin-left: -1em;
+  text-align: left;
 }
 
 .btn {
@@ -83,7 +84,7 @@ ul {
   background: var(--clr-accent);
   color: var(--clr-dark);
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: bold;
@@ -177,7 +178,7 @@ nav {
   display: flex;
   height: 100%;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   margin: 0;
   padding: 0;
@@ -338,24 +339,40 @@ nav {
   margin-bottom: 3em;
 }
 
-.service {
-  background-color: var(--clr-dark);
-  padding: 1.5em;
-  border-radius: 15px;
-  max-width: 500px;
-  margin: 0 auto 1em;
+.fa-compass-drafting {
+  padding-top: .2em;
+  padding-bottom: .5em;
 }
 
-@media (min-width: 700px) {
-  .services {
-    display: flex;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.fa-code {
+  padding-top: .2em;
+  padding-bottom: .5em;
+}
 
-  .service + .service {
-    margin-left: 2em;
+.fa-cubes {
+  padding-top: .2em;
+  padding-bottom: .5em;
+}
+
+.service {
+  background-color: var(--clr-dark);
+  padding: 1.3em;
+  border-radius: 15px;
+  line-height: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+
+@media (min-width: 800px) {
+  .services {
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    gap: 1.5em;
+    text-align: center;
+    margin: 0 auto;
   }
 }
 
@@ -381,6 +398,7 @@ nav {
 .icons {
   display: flex;
   justify-content: space-around;
+  list-style-type: none;
   margin-bottom: 2em;
 }
 
@@ -464,4 +482,23 @@ footer {
 
 .social-item:hover {
   opacity: 0.7;
+}
+
+hr {
+  border-style: none;
+  border-top: 2px solid var(--clr-light);
+  max-width: 800px;
+}
+
+.credit {
+  color: var(--clr-white);
+  text-decoration: none;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.credit > a {
+  color: var(--clr-accent);
+  padding-left: .3em;
 }
