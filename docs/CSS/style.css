@@ -402,6 +402,11 @@ nav {
   margin-bottom: 2em;
 }
 
+/*.myicon {
+  color: var(--clr-dark);
+  width: 40px;
+}*/
+
 .icon-label {
   text-align: center;
   font-weight: bold;
